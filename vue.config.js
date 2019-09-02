@@ -31,10 +31,10 @@ module.exports = {
   //     }
   //   }
   // },
-  devServer: {
-    port: 8090,
-    https: false,
-    hotOnly: true, // 热更新
-    proxy: null, // 设置代理
-  }
+  // devServer: {
+  //   port: 8090,
+  //   https: false,
+  //   hotOnly: true, // 热更新
+  //   proxy: null, // 设置代理
+  // }
 }
