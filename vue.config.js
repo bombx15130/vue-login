@@ -4,7 +4,7 @@ const merge = require('webpack-merge')
 const resolve = dir => path.join(__dirname, dir)
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/vue-login/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
   outputDir: 'dist',
   indexPath: 'index.html',
   filenameHashing: true,
