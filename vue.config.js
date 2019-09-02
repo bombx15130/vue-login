@@ -11,6 +11,8 @@ module.exports = {
   chainWebpack: config => {
     config.resolve.alias
       .set('@', resolve('src'))
+    config.performance
+      .set('hints', false)
     config.module
       .rule('images')
         .test(/\.(png|jpe?g|gif|webp)(\?.*)?$/)
